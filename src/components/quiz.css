@@ -1,0 +1,105 @@
+/* Conteneur principal */
+.quiz-container {
+    font-family: 'Arial', sans-serif; /* Police moderne et minimaliste */
+    background-color: #f2f2f2; /* Fond gris clair */
+    padding: 40px; /* Espacement interne généreux */
+    border-radius: 12px; /* Coins arrondis */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+    max-width: 600px; /* Largeur maximale */
+    margin: 50px auto; /* Centre le quiz dans la page */
+    transition: transform 0.3s ease; /* Animation de transformation */
+  }
+  
+  /* Effet d'animation d'entrée */
+  .quiz-container:hover {
+    transform: scale(1.02); /* Légère augmentation au survol */
+  }
+  
+  /* Style pour les titres */
+  h2 {
+    text-align: center; /* Centre le titre */
+    color: #2c3e50; /* Couleur sombre pour le texte */
+    margin-bottom: 25px; /* Espace sous le titre */
+    font-size: 26px; /* Taille du titre */
+    text-transform: uppercase; /* Majuscules pour le titre */
+    letter-spacing: 2px; /* Espacement des lettres */
+  }
+  
+  /* Style pour les boutons */
+  button {
+    background-color: #2980b9; /* Couleur de fond bleue */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 6px; /* Coins arrondis */
+    padding: 14px; /* Espacement interne généreux */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s ease, transform 0.2s; /* Transitions douces */
+    margin: 10px 0; /* Espacement vertical */
+    display: block; /* Le bouton occupe toute la largeur */
+    width: 100%; /* Largeur à 100% pour les boutons */
+    font-size: 18px; /* Taille du texte pour les boutons */
+  }
+  
+  /* Effet au survol pour les boutons */
+  button:hover {
+    background-color: #3498db; /* Couleur plus claire au survol */
+    transform: translateY(-2px); /* Légère élévation au survol */
+  }
+  
+  /* Style pour les conteneurs de questions */
+  .question-container {
+    background-color: white; /* Fond blanc pour les questions */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin-bottom: 20px; /* Espace entre les questions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: box-shadow 0.3s ease; /* Animation de l'ombre */
+  }
+  
+  /* Effet au survol pour les conteneurs de questions */
+  .question-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus forte au survol */
+  }
+  
+  /* Style pour la liste d'options */
+  .options-list {
+    list-style: none; /* Pas de points de liste */
+    padding: 0; /* Pas de padding */
+  }
+  
+  /* Style pour les options */
+  .option-item {
+    background: #ecf0f1; /* Fond léger pour les options */
+    margin: 10px 0; /* Espacement entre les options */
+    padding: 12px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background 0.3s ease, transform 0.2s; /* Transitions douces */
+  }
+  
+  /* Effet au survol pour les options */
+  .option-item:hover {
+    background: #dfe6e9; /* Fond plus sombre au survol */
+    transform: translateY(-1px); /* Légère élévation au survol */
+  }
+  
+  /* Style pour les boutons radio */
+  input[type="radio"] {
+    margin-right: 8px; /* Espacement à droite du radio */
+    accent-color: #2980b9; /* Couleur d'accent pour les boutons radio */
+  }
+  
+  /* Styles pour mobile */
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 24px; /* Taille de police pour mobile réduite */
+    }
+  
+    button {
+      font-size: 16px; /* Taille de police pour les boutons réduite */
+    }
+  
+    .option-item {
+      font-size: 14px; /* Taille de police pour les options réduite */
+    }
+  }
+  

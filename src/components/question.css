@@ -1,0 +1,49 @@
+/* Conteneur de la question */
+.question-container {
+    background-color: white; /* Fond blanc */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    margin-bottom: 20px; /* Espace entre les questions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: box-shadow 0.3s ease; /* Transition douce pour l'ombre */
+  }
+  
+  /* Effet au survol pour le conteneur de la question */
+  .question-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus forte au survol */
+  }
+  
+  /* Style pour le titre de la question */
+  .question-title {
+    color: #2c3e50; /* Couleur sombre pour le texte */
+    margin-bottom: 15px; /* Espace sous le titre */
+    font-size: 20px; /* Taille du titre */
+  }
+  
+  /* Liste d'options */
+  .options-list {
+    list-style: none; /* Pas de points de liste */
+    padding: 0; /* Pas de padding */
+  }
+  
+  /* Style pour les éléments d'options */
+  .option-item {
+    background: #ecf0f1; /* Fond léger pour les options */
+    margin: 10px 0; /* Espacement entre les options */
+    padding: 12px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background 0.3s ease, transform 0.2s; /* Transitions douces */
+  }
+  
+  /* Effet au survol pour les options */
+  .option-item:hover {
+    background: #dfe6e9; /* Fond plus sombre au survol */
+    transform: translateY(-1px); /* Légère élévation au survol */
+  }
+  
+  /* Styles pour les boutons radio */
+  input[type="radio"] {
+    margin-right: 8px; /* Espacement à droite du bouton radio */
+    accent-color: #2980b9; /* Couleur d'accent pour le bouton radio */
+  }
+  
